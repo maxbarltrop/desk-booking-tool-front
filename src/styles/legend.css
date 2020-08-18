@@ -1,0 +1,40 @@
+.legend {
+  height: 80px;
+  margin: auto;
+}
+
+.legend-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.9;
+  margin: 0 5px 0 20px;
+  float: left;
+  font-family: News Cycle;
+  font-size: 20px;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+.legend-text {
+  float: left;
+}
+
+.legend-p {
+  text-align: center;
+  margin: 30px auto;
+  width: max-content;
+}

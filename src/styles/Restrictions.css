@@ -1,0 +1,35 @@
+.dropDown {
+  width: 30vw;
+}
+
+.title {
+  color: #428bca;
+}
+.Note {
+  color: black;
+}
+
+.Restrictions {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.Button {
+  margin: 3vmin;
+  height: 5vmin;
+  width: 10vmin;
+  background-color: #428bca;
+  color: white;
+}
+
+.Current {
+  display: table-cell;
+  vertical-align: middle;
+  color: grey;
+  font-size: 15px;
+  padding-top: 1vh;
+}
+.Error {
+  color: red;
+  font-size: 15px;
+}

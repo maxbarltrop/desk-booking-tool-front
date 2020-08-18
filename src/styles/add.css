@@ -1,0 +1,25 @@
+.choose {
+  padding-top: 10vh;
+  padding-left: 6vw;
+  margin-bottom: 6vh;
+  font-size: 20px;
+  font-family: News Cycle;
+}
+
+.inpt {
+  margin-left: 8vw;
+  width: 100%;
+}
+
+.preview {
+  width: auto;
+  height: 300px;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.upload-btn {
+  margin-top: calc(15vh + 300px) !important;
+  margin-left: 6vw !important;
+}

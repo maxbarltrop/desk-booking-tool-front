@@ -1,0 +1,55 @@
+#feedback-img {
+  width: 12% !important;
+  margin-right: 3% !important;
+  height: auto;
+  float: left;
+}
+
+.feedback-card {
+  width: 70vw !important;
+  margin: 3vh auto !important;
+  padding: 15px !important;
+}
+
+.feedback-btn {
+  float: left !important;
+  margin-left: 0 !important;
+  margin-right: 5vw !important;
+}
+
+.feedback-title {
+  font-size: 6vmin;
+  float: left;
+  width: 85%;
+  margin: 3vh 0;
+  font-weight: 100;
+}
+
+.feed-header {
+  margin-bottom: 2vh;
+  font-family: News Cycle;
+}
+.sub-text {
+  font-size: calc(1vmin + 10px);
+}
+
+#home {
+  margin: 10px auto !important;
+  width: 50% !important;
+}
+
+.dialog-header {
+  font-family: News Cycle;
+  font-size: 3.8vmin;
+  padding: 4px;
+  line-height: 3.8vmin;
+  text-align: center;
+  margin: 30px;
+}
+
+.feedback-text {
+  font-family: News Cycle !important;
+  padding: 10px !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+}
