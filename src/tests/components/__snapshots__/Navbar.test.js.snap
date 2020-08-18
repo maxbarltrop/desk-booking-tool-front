@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render when logged in 1`] = `
+<div>
+  <div
+    className="site-header"
+  >
+    Desk Booking Tool
+  </div>
+  <div
+    className="site-subheader"
+  >
+    User Panel
+  </div>
+  <div
+    className="custom-divider"
+  >
+     
+  </div>
+  <div
+    className="ui blue six item menu"
+  >
+    <Link
+      className="item"
+      replace={false}
+      to="/BookADesk"
+    >
+      Book A Desk
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/ViewPreviousBookings"
+    >
+      View My Previous Bookings
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/ViewAllBookings"
+    >
+      View All Bookings
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/userRestrictions"
+    >
+      Timing Restrictions
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/restrict"
+    >
+      Restrict Desks
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/addFloor"
+    >
+      Add a Floor
+    </Link>
+  </div>
+  <div
+    className="custom-divider"
+  >
+     
+  </div>
+</div>
+`;

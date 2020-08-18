@@ -1,0 +1,97 @@
+.my-logo-div {
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+}
+.my-logo {
+  border: 1px solid #54b4e4;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  margin-left: 9px;
+  position: absolute;
+  float: left;
+  animation-delay: 250ms;
+}
+
+.sq1 {
+  z-index: 2;
+  margin-top: -64px;
+  animation: sq-spin1 infinite 6s linear;
+}
+.sq2 {
+  z-index: 3;
+  margin-top: -70px;
+  animation: sq-spin2 infinite 6s linear;
+}
+.sq3 {
+  z-index: 4;
+  margin-top: -76px;
+  animation: sq-spin3 infinite 6s linear;
+}
+
+@keyframes sq-spin1 {
+  0% {
+    transform: rotate(45deg);
+  }
+  90% {
+    transform: rotate(405deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes sq-spin3 {
+  0% {
+    transform: rotate(45deg);
+  }
+  30% {
+    transform: rotate(405deg);
+  }
+  60% {
+    transform: rotate(765deg);
+  }
+  90% {
+    transform: rotate(1125deg);
+  }
+  100% {
+    transform: rotate(1125deg);
+  }
+}
+
+@keyframes sq-spin2 {
+  0% {
+    transform: rotate(45deg);
+  }
+  45% {
+    transform: rotate(405deg);
+  }
+  90% {
+    transform: rotate(765deg);
+  }
+  100% {
+    transform: rotate(765deg);
+  }
+}
+
+.my-logo-text {
+  width: 95%;
+  height: auto;
+  margin-left: 2.5%;
+  margin-top: 2%;
+}
+
+.my-text {
+  float: left;
+  text-align: left;
+  width: 70px;
+  position: relative;
+  margin-top: -80px;
+  margin-left: 80px;
+  font-family: News Cycle, sans-serif;
+  font-weight: 750;
+  color: #5ec1f3;
+  font-size: 20px;
+}

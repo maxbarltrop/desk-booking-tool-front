@@ -1,0 +1,5 @@
+node_modules/
+public/dist/
+.env
+package-lock.json
+src/tests/components/__snapshots_/

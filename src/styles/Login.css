@@ -1,0 +1,34 @@
+.login-navbar{
+    height: 100px;
+}
+
+#login-logo{
+    height: 100px;
+}
+
+.login-title{
+    font-size: 30px;
+    right: 50px;
+    position: absolute;
+}
+
+.login-login-card{
+    margin-top: 3%;
+}
+
+.login-card{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    height: 220px;
+}
+
+.login-card-title{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.login-btn{
+    margin-top: 10px;
+    width: 40%;
+}
