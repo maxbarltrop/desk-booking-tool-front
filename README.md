@@ -1,9 +1,9 @@
 # desk-booking-tool-front
  The desk booking tool is a React App that I made along with one
- other coworker over a co-op term in early 2020. The backend code is in a separate repository. 
+ other coworker over a co-op term in early 2020. 
  
- It won't npm run start as all the company tags had to be removed, but it utilizes a calendar
- module, allows for file uploading, and uses some jQuery in an interesting way. 
+ It won't build after removing the company tags and backend functionality, but it utilizes a calendar
+ module, allows for file uploading, and applies jQuery to do some powerful DOM manipulation. 
  
  The goal was to create
  a tool for employees at the company to book desks to be able to return
@@ -24,7 +24,4 @@
  the project requirements, but React does not provide a useful
  draggable wrapper. Since the floorplans were user provided, desks
  needed to be placed anywhere, so I gained a strong foundation in
- jQuery in trying to save and render the positioning. My term
- came to a close before I got to implement some visual improvements, which are substantially lacking, 
- but all the required functionality was implemented on a tight
- schedule. 
+ jQuery in trying to save and render the positioning.
